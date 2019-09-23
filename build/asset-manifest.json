@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.24728cc1.chunk.css",
+    "main.js": "/static/js/main.c56bfe73.chunk.js",
+    "main.js.map": "/static/js/main.c56bfe73.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.f74a8007.chunk.css": "/static/css/2.f74a8007.chunk.css",
+    "static/js/2.631e6262.chunk.js": "/static/js/2.631e6262.chunk.js",
+    "static/js/2.631e6262.chunk.js.map": "/static/js/2.631e6262.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.cae6c5f08af7b7d864871399529dfa7a.js": "/precache-manifest.cae6c5f08af7b7d864871399529dfa7a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.f74a8007.chunk.css.map": "/static/css/2.f74a8007.chunk.css.map",
+    "static/css/main.24728cc1.chunk.css.map": "/static/css/main.24728cc1.chunk.css.map",
+    "static/media/facebook.svg": "/static/media/facebook.5e253658.svg",
+    "static/media/location.svg": "/static/media/location.60407f7b.svg",
+    "static/media/mail.svg": "/static/media/mail.c1506a7b.svg",
+    "static/media/phone.svg": "/static/media/phone.cad21625.svg"
+  }
+}

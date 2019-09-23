@@ -1,0 +1,121 @@
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  top: 0;
+  min-height: 64px;
+  width: 100%;
+  align-items: center;
+  z-index: 100;
+  transition: all 0.2s ease-in;
+}
+
+.scrolled {
+  background-color: white;
+  -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-container .logo-container {
+  height: 36px;
+}
+
+.nav-container .logo-container img {
+  height: 100%;
+  width: auto;
+}
+
+.nav-container .nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-container .nav-links .nav-link-button {
+  margin: 0 5px;
+  font-weight: 600
+}
+
+.nav-container .nav-links .nav-link-button span::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background: #F22613;
+  visibility: hidden;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: .25s linear;
+}
+
+.nav-container .nav-links .nav-link-button > span:hover:before,
+.nav-container .nav-links .nav-link-button > span:focus:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+ .darkened-bg {
+  background-color: #f3f3f3;
+ }
+
+.highlighted-text {
+  color: #f8f8f8;
+  border-bottom: 2px solid red;
+  text-transform: uppercase;
+}
+
+input {
+  background: #fff;
+  color: #525865;
+  border-radius: 3px;
+  border: 1px solid #f2f2f2;
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.2);
+  font-family: inherit;
+  outline: none;
+  padding: 0.6em 1.45em 0.7em;
+  -webkit-transition: .18s ease-out;
+  -moz-transition: .18s ease-out;
+  -o-transition: .18s ease-out;
+  transition: .18s ease-out;
+}
+
+input:hover {
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.02);
+}
+
+input:focus {
+  color: #4b515d;
+  border: 1px solid #B8B6B6;
+  box-shadow: inset 1px 2px 4px rgba(0, 0, 0, 0.01), 0px 0px 8px rgba(0, 0, 0, 0.2);
+}
+
+.primary-button {
+  text-transform: uppercase;
+  background-color: #F22613;
+  border: none;
+  color: white;
+  border-radius: 3px;
+}
+
+.button-xl {
+  padding: 10px 30px;
+}
+
+.grey-text {
+  color: #888888;
+}
