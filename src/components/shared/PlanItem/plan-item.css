@@ -1,0 +1,46 @@
+.plan-item-container {
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+  border: 1px solid #f3f3f300;
+  padding: 1px;
+}
+
+.plan-item-container:hover {
+  border: 1px solid #888888;
+}
+
+.plan-item-container:hover > .image-container {
+
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.plan-item-id-container {
+  position: absolute;
+  bottom: 5%;
+  right: 0;
+  background-color: #F22613;
+  color: #f3f3f3;
+  padding: 5px 10px;
+}
+
+.detail-container {
+  background: linear-gradient(to right, transparent 50%, #f3f3f3 50%)
+}
+
+.detail-container p {
+  margin: 0;
+}
+
+.title-container {
+  padding: 10px 0;
+  color: #888888;
+}

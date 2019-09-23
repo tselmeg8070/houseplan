@@ -1,0 +1,8 @@
+.ad-container {
+  overflow: hidden;
+  max-height: 200px;
+}
+
+.ad-container img {
+  width: 100%;
+}

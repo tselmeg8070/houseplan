@@ -1,0 +1,8 @@
+.filter-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  margin-left: 0.5em;
+}
